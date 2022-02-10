@@ -1,8 +1,7 @@
 import subprocess
 import os
 import pandas as pd
-from config import PATH_TO_NETMHCPAN, OUTPUT_DIR, INPUT_DIR
-
+from predictors.config import PATH_TO_NETMHCPAN, OUTPUT_DIR, INPUT_DIR
 
 # uses the tool
 def feed_to_NetMHCPan():
