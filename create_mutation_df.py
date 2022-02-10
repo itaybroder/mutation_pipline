@@ -1,17 +1,14 @@
 from os import stat
 import pandas as pd
-from tools import PROTEIN, split_for_all_peptides, is_vocs
+from tools import PROTEIN, split_for_all_peptides, json_txt_to_dict,create_varients_dict
 
-#getting a list of all mutations from the file
-voc_mutation_list = []
-mutation_list = pd.read_csv("./data/all_mut.csv")["Mutation"]
 
-with open("./data/voc_mutation.txt", "r") as f:
-    lines = f.readlines()
+#setting the main varients protiens dict
+mutation_dict = json_txt_to_dict("data/vocs.txt")
+protien_varients_dict = create_varients_dict(mutation_dict)
+print(protien_varients_dict["Alpha B.1.1.7"]["protein"])
 
-for line in lines:
-    voc_mutation_list.append(line.replace(",", "").replace("'", "").replace("\n", "").replace(" ", ""))
-#----------------------------------------------------------------------------------------------
+
 
 #getting all the peptides from the original protein
 peptides = split_for_all_peptides(PROTEIN)
