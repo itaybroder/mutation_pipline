@@ -1,7 +1,5 @@
 import os
 
-
-
 #creating a dataframe from the tool
 def create_dataframe_from_netchop(output_file):
     rows = []

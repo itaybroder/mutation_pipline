@@ -1,39 +1,38 @@
 from os import stat
 import pandas as pd
-from tools import PROTEIN, split_for_all_peptides, json_txt_to_dict,create_varients_dict
 
+import tools
+from tools import PROTEIN, split_for_all_peptides, json_txt_to_dict,create_varients_dict, create_protien_fasta_file, create_peptides_input_file
+from predictors.netmhcpan import feed_to_NetMHCPan, create_dataframe_from_netmhcpan
+from predictors.netchop import create_dataframe_from_netchop
+import importlib
 
-#setting the main varients protiens dict
+importlib.reload(tools)
+
+#prapring the main varients protiens dict
 mutation_dict = json_txt_to_dict("data/vocs.txt")
 protien_varients_dict = create_varients_dict(mutation_dict)
-print(protien_varients_dict["Alpha B.1.1.7"]["protein"])
-
-
-
-#getting all the peptides from the original protein
-peptides = split_for_all_peptides(PROTEIN)
 #---------------------------------------------------------------------------------------------
 
-#creating the first mutation dataframe
-cols = ["mutation poition", "mutation", "start_pos", "end_pos", "original_peptide", "after_mutation", "Vocs"]
-rows = []
+#the main pipeline
+def main_pipline(protien_varients_dict):
+    #creating the base df
+    cols = ["peptide", "start_pos", "end_pos", "varient"]
+    rows = []
+    for varient in protien_varients_dict:
+        for pep in protien_varients_dict[varient]["peptides"]:
+            rows.append([pep[0], pep[1], pep[2], varient])
 
-for peptide in peptides:
-    for mut in mutation_list:
-        if("-" in mut):
-            continue
-        mut_pos = int(mut[1:-1]) 
-        new_aa = mut[-1]
-        start_pos = int(peptide[1])
-        end_pos = int(peptide[2])
-        if(mut_pos >= start_pos and  end_pos > mut_pos):
-            relative_index = mut_pos-start_pos 
-            new_peptide = peptide[0]
-            new_peptide = list(new_peptide)
-            new_peptide[relative_index] = new_aa 
-            new_peptide = "".join(new_peptide)
-            rows.append([mut_pos, new_aa, start_pos, end_pos, peptide[0], new_peptide, is_vocs(mut, voc_mutation_list)])
-    
-df = pd.DataFrame(rows, columns=cols)
-df.to_csv("./data/mutation_peptide_df.csv")
-#------------------------------------------------------------------------------------------------------------------
+    base_df = pd.DataFrame(rows, columns=cols)
+
+    #creating the input files for the predictors
+    create_peptides_input_file(base_df)
+    create_protien_fasta_file(protien_varients_dict)
+
+    #run the predictors
+    feed_to_NetMHCPan()
+
+    netmhcpan_df = create_dataframe_from_netmhcpan()
+#------------------------------------------
+
+main_pipline(protien_varients_dict)
