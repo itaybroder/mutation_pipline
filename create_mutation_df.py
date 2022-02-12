@@ -12,7 +12,6 @@ importlib.reload(tools)
 #prapring the main varients protiens dict
 mutation_dict = json_txt_to_dict("data/vocs.txt")
 protien_varients_dict = create_varients_dict(mutation_dict)
-print(protien_varients_dict)
 #-----------------------------------------------------------------------------------------------------------------------
 
 #the main pipeline
@@ -25,7 +24,7 @@ def main_pipline(protien_varients_dict):
             rows.append([pep[0], pep[1], pep[2], varient])
 
     base_df = pd.DataFrame(rows, columns=cols)
-
+    print(base_df.head())
     #creating the input files for the predictors
     create_peptides_input_file(base_df)
     create_protien_fasta_file(protien_varients_dict)
