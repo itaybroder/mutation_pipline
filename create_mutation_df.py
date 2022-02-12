@@ -12,7 +12,7 @@ importlib.reload(tools)
 #prapring the main varients protiens dict
 mutation_dict = json_txt_to_dict("data/vocs.txt")
 protien_varients_dict = create_varients_dict(mutation_dict)
-#---------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------------------
 
 #the main pipeline
 def main_pipline(protien_varients_dict):
@@ -33,6 +33,6 @@ def main_pipline(protien_varients_dict):
     feed_to_NetMHCPan()
 
     netmhcpan_df = create_dataframe_from_netmhcpan()
-#------------------------------------------
+#-----------------------------------------------------------------------------------------------------------------------
 
 main_pipline(protien_varients_dict)
