@@ -12,6 +12,7 @@ importlib.reload(tools)
 #prapring the main varients protiens dict
 mutation_dict = json_txt_to_dict("data/vocs.txt")
 protien_varients_dict = create_varients_dict(mutation_dict)
+print(protien_varients_dict)
 #-----------------------------------------------------------------------------------------------------------------------
 
 #the main pipeline
@@ -31,10 +32,11 @@ def main_pipline(protien_varients_dict):
 
     #run the predictors
     #feed_to_NetMHCPan()
-    feed_to_Netchop()
-    # netmhcpan_df = create_dataframe_from_netmhcpan()
-    #
-    # base_df = merge_netmhcpan(netmhcpan_df, base_df)
+    # feed_to_Netchop()
+
+
+    netmhcpan_df = create_dataframe_from_netmhcpan()
+    base_df = merge_netmhcpan(netmhcpan_df, base_df)
 
 #-----------------------------------------------------------------------------------------------------------------------
 

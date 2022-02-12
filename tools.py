@@ -5,7 +5,7 @@ def split_by_k(RNA, k, pos_list):
     peptides = []
     pos_counter = 1
     for s in RNA[:len(RNA)-k]:
-        peptides.append([RNA[pos_counter-1: pos_counter+k-1], pos_list[pos_counter-2], pos_list[pos_counter+k-2]])
+        peptides.append([RNA[pos_counter-1: pos_counter+k-1], pos_list[pos_counter-1], pos_list[pos_counter+k-2]])
         pos_counter+=1
     return peptides
 
