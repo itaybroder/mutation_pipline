@@ -30,7 +30,7 @@ def main_pipline(protien_varients_dict):
     create_protien_fasta_file(protien_varients_dict)
 
     #run the predictors
-    feed_to_NetMHCPan()
+    #feed_to_NetMHCPan()
 
     netmhcpan_df = create_dataframe_from_netmhcpan()
 #-----------------------------------------------------------------------------------------------------------------------

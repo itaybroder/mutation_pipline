@@ -32,7 +32,7 @@ def feed_to_NetMHCPan():
 # creting a pandas DataFrame from the output file of the tool
 
 def create_dataframe_from_netmhcpan():
-    netmhcpan_output_file = 'data/netmhcpan_output.txt'
+    netmhcpan_output_file = 'data/output_files/netmhcpan_output.txt'
     with open(netmhcpan_output_file, 'r') as f:
         output_file_lines = f.readlines()
         lis = []
