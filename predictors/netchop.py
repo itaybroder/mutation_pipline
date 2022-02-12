@@ -1,4 +1,16 @@
 import os
+import subprocess
+from config import PATH_TO_NETCHOP, INPUT_DIR, OUTPUT_DIR
+
+def feed_to_Netchop():
+    input_file_path = INPUT_DIR + "/protiens.fasta"
+    output_file_path=OUTPUT_DIR + "/netchop_output.txt"
+    path_to_tool=PATH_TO_NETCHOP
+    command = path_to_tool + "/netchop " + input_file_path + " > " + output_file_path
+    print(command + " :)")
+    subprocess.check_output('%s' % command, shell=True)
+
+
 
 #creating a dataframe from the tool
 def create_dataframe_from_netchop(output_file):

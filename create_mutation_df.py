@@ -4,7 +4,7 @@ import pandas as pd
 import tools
 from tools import PROTEIN, split_for_all_peptides, json_txt_to_dict,create_varients_dict, create_protien_fasta_file, create_peptides_input_file, merge_netmhcpan
 from predictors.netmhcpan import feed_to_NetMHCPan, create_dataframe_from_netmhcpan
-from predictors.netchop import create_dataframe_from_netchop
+from predictors.netchop import create_dataframe_from_netchop, feed_to_Netchop
 import importlib
 
 importlib.reload(tools)
@@ -31,12 +31,11 @@ def main_pipline(protien_varients_dict):
 
     #run the predictors
     #feed_to_NetMHCPan()
+    feed_to_Netchop()
+    # netmhcpan_df = create_dataframe_from_netmhcpan()
+    # 
+    # base_df = merge_netmhcpan(netmhcpan_df, base_df)
 
-    netmhcpan_df = create_dataframe_from_netmhcpan()
-
-    base_df = merge_netmhcpan(netmhcpan_df, base_df)
-    print(base_df.head())
-    base_df.to_csv("data/output_files/base_result.csv")
 #-----------------------------------------------------------------------------------------------------------------------
 
 main_pipline(protien_varients_dict)
