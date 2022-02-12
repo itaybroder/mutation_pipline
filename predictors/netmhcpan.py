@@ -56,4 +56,5 @@ def create_dataframe_from_netmhcpan():
 
         cols = ["mhc_type", "peptide", "rank"]
         mhc_frame = pd.DataFrame(lis, columns=cols)
-        mhc_frame.to_csv(OUTPUT_DIR + "/mhc_resualt.csv")
+
+        return mhc_frame
