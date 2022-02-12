@@ -33,7 +33,7 @@ def main_pipline(protien_varients_dict):
     #feed_to_NetMHCPan()
     feed_to_Netchop()
     # netmhcpan_df = create_dataframe_from_netmhcpan()
-    # 
+    #
     # base_df = merge_netmhcpan(netmhcpan_df, base_df)
 
 #-----------------------------------------------------------------------------------------------------------------------
