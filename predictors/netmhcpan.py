@@ -50,7 +50,6 @@ def create_dataframe_from_netmhcpan():
                 peptide = line[2]
                 rank = line[12]
                 row = [mhc_type, peptide, rank]
-                print(row)
                 lis.append(row)
                 i += 1
 
