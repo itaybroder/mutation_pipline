@@ -11,11 +11,15 @@ def feed_to_Netchop():
     subprocess.check_output('%s' % command, shell=True)
 
 
+def seq_map(mutation_dict, varient_name):
+    for varient in mutation_dict:
+        if(varient_name in varient):
+            return varient
+
 
 #creating a dataframe from the tool
-def create_dataframe_from_netchop():
+def create_dataframe_from_netchop(base_df, protien_varients_dict):
     output_file = "data/output_files/netchop_output.txt"
-    rows = []
     with open(output_file, "r+") as file:
         for line in file:
             line = line.rstrip("\n")
@@ -33,12 +37,11 @@ def create_dataframe_from_netchop():
                 continue
             else:
                 line = line.split()
-                pos = int(line[0])
-                choped = (line[2] == 'S')
-                curr_seq = line[4]
-                if(curr_seq == seq):
-                    a = df["end_pos"]
-                    df.loc[df['end_pos'] == pos, 'Chopped'] = choped
-                lis.append(line)
+                end_pos = int(line[0])
+                chopped = (line[2] == 'S')
+                curr_seq = seq_map(protien_varients_dict, line[4])
+                base_df.loc[(base_df["end_pos"] == end_pos) & (base_df["varient"] == curr_seq), "Chopped"] = chopped
 
-        return df
+
+
+        return base_df

@@ -1,0 +1,895 @@
+Output for 'seq1'
+Name:  seq1 	Length:  1272
+MFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHSGTNGTKRFDN      80
+PVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVYS     160
+SANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQTL     240
+LALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRVQ     320
+PTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSFV     400
+IRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPCN     480
+GVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFLP     560
+FQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRVYSTGSN     640
+VFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTIS     720
+VTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGFN     800
+FSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAGT     880
+ITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQDVVNQNAQALNT     960
+LVKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVD    1040
+FCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNTF    1120
+VSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQ    1200
+ELGKYEQYIKWPWYIWLGFIAGLIAIVMVTIMLCCMTSCCSCLKGCCSCGSCCKFDEDDSEPVLKGVKLHYT
+................N...........................................N...........N.......      80
+........................................N..........................N............     160
+...N....................................................................N.......     240
+........................................N.......................................     320
+.........N...........N..........................................................     400
+................................................................................     480
+................................................................................     560
+.........................................N............N.........................     640
+...........................................................................N....     720
+...............................................................................N     800
+................................................................................     880
+................................................................................     960
+................................................................................    1040
+........................................................N.......................    1120
+............N...........................................................N.......    1200
+........................................................................            1280
+
+(Threshold=0.5)
+----------------------------------------------------------------------
+SeqName      Position  Potential   Jury    N-Glyc
+				 agreement result
+----------------------------------------------------------------------
+seq1          17 NLTT   0.6606     (8/9)   +
+seq1          61 NVTW   0.7829     (9/9)   +++
+seq1          73 NGTK   0.7452     (9/9)   ++
+seq1         121 NATN   0.6783     (8/9)   +
+seq1         148 NKSW   0.6321     (7/9)   +
+seq1         164 NCTF   0.6221     (8/9)   +
+seq1         233 NITR   0.7613     (9/9)   +++
+seq1         281 NGTI   0.7379     (9/9)   ++
+seq1         330 NITN   0.5970     (7/9)   +
+seq1         342 NATR   0.5673     (8/9)   +
+seq1         602 NTSN   0.5784     (6/9)   +
+seq1         615 NCTE   0.7163     (9/9)   ++
+seq1         656 NNSY   0.4724     (6/9)   -
+seq1         708 NNSI   0.3531     (9/9)   --
+seq1         716 NFTI   0.6426     (9/9)   ++
+seq1         800 NFSQ   0.6146     (8/9)   +
+seq1        1073 NFTT   0.4084     (7/9)   -
+seq1        1097 NGTH   0.5496     (5/9)   +
+seq1        1133 NNTV   0.5800     (6/9)   +
+seq1        1157 NHTS   0.3730     (9/9)   --
+seq1        1172 NASV   0.3998     (8/9)   -
+seq1        1193 NESL   0.6792     (9/9)   ++
+----------------------------------------------------------------------
+
+Output for 'seq2'
+Name:  seq2 	Length:  1273
+MFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFD      80
+APVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVY     160
+SSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQT     240
+LLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRV     320
+QPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSF     400
+VIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPC     480
+NGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFL     560
+PFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRVYSTGS     640
+NVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTI     720
+SVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGF     800
+NFSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAG     880
+TITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQDVVNQNAQALN     960
+TLVKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRV    1040
+DFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNT    1120
+FVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDL    1200
+QELGKYEQYIKWPWYIWLGFIAGLIAIVMVTIMLCCMTSCCSCLKGCCSCGSCCKFDEDDSEPVLKGVKLHYT
+................N...........................................N............N......      80
+.........................................N..........................N...........     160
+....N....................................................................N......     240
+.........................................N......................................     320
+..........N...........N.........................................................     400
+................................................................................     480
+................................................................................     560
+..........................................N............N........................     640
+............................................................................N...     720
+................................................................................     800
+N...............................................................................     880
+................................................................................     960
+................................................................................    1040
+.........................................................N......................    1120
+.............N...........................................................N......    1200
+.........................................................................           1280
+
+(Threshold=0.5)
+----------------------------------------------------------------------
+SeqName      Position  Potential   Jury    N-Glyc
+				 agreement result
+----------------------------------------------------------------------
+seq2          17 NLTT   0.6607     (8/9)   +
+seq2          61 NVTW   0.7820     (9/9)   +++
+seq2          74 NGTK   0.7152     (9/9)   ++
+seq2         122 NATN   0.6781     (8/9)   +
+seq2         149 NKSW   0.6318     (7/9)   +
+seq2         165 NCTF   0.6220     (8/9)   +
+seq2         234 NITR   0.7613     (9/9)   +++
+seq2         282 NGTI   0.7378     (9/9)   ++
+seq2         331 NITN   0.5970     (7/9)   +
+seq2         343 NATR   0.5671     (8/9)   +
+seq2         603 NTSN   0.5783     (6/9)   +
+seq2         616 NCTE   0.7163     (9/9)   ++
+seq2         657 NNSY   0.4724     (6/9)   -
+seq2         709 NNSI   0.3528     (9/9)   --
+seq2         717 NFTI   0.6426     (9/9)   ++
+seq2         801 NFSQ   0.6146     (8/9)   +
+seq2        1074 NFTT   0.4084     (7/9)   -
+seq2        1098 NGTH   0.5496     (5/9)   +
+seq2        1134 NNTV   0.5800     (6/9)   +
+seq2        1158 NHTS   0.3730     (9/9)   --
+seq2        1173 NASV   0.3996     (8/9)   -
+seq2        1194 NESL   0.6791     (9/9)   ++
+----------------------------------------------------------------------
+
+Output for 'seq3'
+Name:  seq3 	Length:  1273
+MFVFLVLLPLVSSQCVNLFTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFD      80
+NPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVY     160
+SSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQT     240
+LLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRV     320
+QPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSF     400
+VIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPC     480
+NGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFL     560
+PFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRVYSTGS     640
+NVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTI     720
+SVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGF     800
+NFSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAG     880
+TITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQDVVNQNAQALN     960
+TLVKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRV    1040
+DFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNT    1120
+FVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDL    1200
+QELGKYEQYIKWPWYIWLGFIAGLIAIVMVTIMLCCMTSCCSCLKGCCSCGSCCKFDEDDSEPVLKGVKLHYT
+............................................................N............N......      80
+.........................................N..........................N...........     160
+....N....................................................................N......     240
+.........................................N......................................     320
+..........N...........N.........................................................     400
+................................................................................     480
+................................................................................     560
+..........................................N............N........................     640
+............................................................................N...     720
+................................................................................     800
+N...............................................................................     880
+................................................................................     960
+................................................................................    1040
+.........................................................N......................    1120
+.............N...........................................................N......    1200
+.........................................................................           1280
+
+(Threshold=0.5)
+----------------------------------------------------------------------
+SeqName      Position  Potential   Jury    N-Glyc
+				 agreement result
+----------------------------------------------------------------------
+seq3          61 NVTW   0.7820     (9/9)   +++
+seq3          74 NGTK   0.7192     (9/9)   ++
+seq3         122 NATN   0.6780     (8/9)   +
+seq3         149 NKSW   0.6318     (7/9)   +
+seq3         165 NCTF   0.6220     (8/9)   +
+seq3         234 NITR   0.7613     (9/9)   +++
+seq3         282 NGTI   0.7378     (9/9)   ++
+seq3         331 NITN   0.5970     (7/9)   +
+seq3         343 NATR   0.5671     (8/9)   +
+seq3         603 NTSN   0.5783     (6/9)   +
+seq3         616 NCTE   0.7163     (9/9)   ++
+seq3         657 NNSY   0.4724     (6/9)   -
+seq3         709 NNSI   0.3528     (9/9)   --
+seq3         717 NFTI   0.6426     (9/9)   ++
+seq3         801 NFSQ   0.6146     (8/9)   +
+seq3        1074 NFTT   0.4084     (7/9)   -
+seq3        1098 NGTH   0.5496     (5/9)   +
+seq3        1134 NNTV   0.5800     (6/9)   +
+seq3        1158 NHTS   0.3730     (9/9)   --
+seq3        1173 NASV   0.3994     (8/9)   -
+seq3        1194 NESL   0.6791     (9/9)   ++
+----------------------------------------------------------------------
+
+Output for 'seq4'
+Name:  seq4 	Length:  1273
+MFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFD      80
+NPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMEKEFRVY     160
+SSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQT     240
+LLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRV     320
+QPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSF     400
+VIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPC     480
+NGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFL     560
+PFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRVYSTGS     640
+NVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTI     720
+SVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGF     800
+NFSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAG     880
+TITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQDVVNQNAQALN     960
+TLVKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRV    1040
+DFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNT    1120
+FVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDL    1200
+QELGKYEQYIKWPWYIWLGFIAGLIAIVMVTIMLCCMTSCCSCLKGCCSCGSCCKFDEDDSEPVLKGVKLHYT
+................N...........................................N............N......      80
+.........................................N..........................N...........     160
+....N....................................................................N......     240
+.........................................N......................................     320
+..........N...........N.........................................................     400
+................................................................................     480
+................................................................................     560
+..........................................N............N........................     640
+............................................................................N...     720
+................................................................................     800
+N...............................................................................     880
+................................................................................     960
+................................................................................    1040
+.........................................................N......................    1120
+.............N...........................................................N......    1200
+.........................................................................           1280
+
+(Threshold=0.5)
+----------------------------------------------------------------------
+SeqName      Position  Potential   Jury    N-Glyc
+				 agreement result
+----------------------------------------------------------------------
+seq4          17 NLTT   0.6606     (8/9)   +
+seq4          61 NVTW   0.7820     (9/9)   +++
+seq4          74 NGTK   0.7192     (9/9)   ++
+seq4         122 NATN   0.6782     (8/9)   +
+seq4         149 NKSW   0.6349     (7/9)   +
+seq4         165 NCTF   0.6409     (8/9)   +
+seq4         234 NITR   0.7613     (9/9)   +++
+seq4         282 NGTI   0.7378     (9/9)   ++
+seq4         331 NITN   0.5970     (7/9)   +
+seq4         343 NATR   0.5672     (8/9)   +
+seq4         603 NTSN   0.5783     (6/9)   +
+seq4         616 NCTE   0.7163     (9/9)   ++
+seq4         657 NNSY   0.4724     (6/9)   -
+seq4         709 NNSI   0.3528     (9/9)   --
+seq4         717 NFTI   0.6426     (9/9)   ++
+seq4         801 NFSQ   0.6146     (8/9)   +
+seq4        1074 NFTT   0.4084     (7/9)   -
+seq4        1098 NGTH   0.5496     (5/9)   +
+seq4        1134 NNTV   0.5800     (6/9)   +
+seq4        1158 NHTS   0.3730     (9/9)   --
+seq4        1173 NASV   0.3998     (8/9)   -
+seq4        1194 NESL   0.6792     (9/9)   ++
+----------------------------------------------------------------------
+
+Output for 'seq5'
+Name:  seq5 	Length:  1273
+MFVFLVLLPLVSSQCVNLTRRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFD      80
+NPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVY     160
+SSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQT     240
+LLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRV     320
+QPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSF     400
+VIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPC     480
+NGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFL     560
+PFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRVYSTGS     640
+NVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTI     720
+SVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGF     800
+NFSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAG     880
+TITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQDVVNQNAQALN     960
+TLVKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRV    1040
+DFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNT    1120
+FVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDL    1200
+QELGKYEQYIKWPWYIWLGFIAGLIAIVMVTIMLCCMTSCCSCLKGCCSCGSCCKFDEDDSEPVLKGVKLHYT
+................N...........................................N............N......      80
+.........................................N..........................N...........     160
+....N....................................................................N......     240
+.........................................N......................................     320
+..........N...........N.........................................................     400
+................................................................................     480
+................................................................................     560
+..........................................N............N........................     640
+............................................................................N...     720
+................................................................................     800
+N...............................................................................     880
+................................................................................     960
+................................................................................    1040
+.........................................................N......................    1120
+.............N...........................................................N......    1200
+.........................................................................           1280
+
+(Threshold=0.5)
+----------------------------------------------------------------------
+SeqName      Position  Potential   Jury    N-Glyc
+				 agreement result
+----------------------------------------------------------------------
+seq5          17 NLTR   0.7113     (8/9)   +
+seq5          61 NVTW   0.7820     (9/9)   +++
+seq5          74 NGTK   0.7192     (9/9)   ++
+seq5         122 NATN   0.6780     (8/9)   +
+seq5         149 NKSW   0.6318     (7/9)   +
+seq5         165 NCTF   0.6220     (8/9)   +
+seq5         234 NITR   0.7613     (9/9)   +++
+seq5         282 NGTI   0.7378     (9/9)   ++
+seq5         331 NITN   0.5970     (7/9)   +
+seq5         343 NATR   0.5672     (8/9)   +
+seq5         603 NTSN   0.5783     (6/9)   +
+seq5         616 NCTE   0.7163     (9/9)   ++
+seq5         657 NNSY   0.4724     (6/9)   -
+seq5         709 NNSI   0.3528     (9/9)   --
+seq5         717 NFTI   0.6426     (9/9)   ++
+seq5         801 NFSQ   0.6146     (8/9)   +
+seq5        1074 NFTT   0.4084     (7/9)   -
+seq5        1098 NGTH   0.5494     (5/9)   +
+seq5        1134 NNTV   0.5800     (6/9)   +
+seq5        1158 NHTS   0.3730     (9/9)   --
+seq5        1173 NASV   0.3996     (8/9)   -
+seq5        1194 NESL   0.6790     (9/9)   ++
+----------------------------------------------------------------------
+
+Output for 'seq6'
+Name:  seq6 	Length:  1273
+MFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFD      80
+NPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVY     160
+SSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQT     240
+LLALHRSYLTPGDNSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRV     320
+QPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSF     400
+VIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPC     480
+NGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFL     560
+PFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRVYSTGS     640
+NVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTI     720
+SVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGF     800
+NFSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAG     880
+TITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQDVVNQNAQALN     960
+TLVKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRV    1040
+DFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNT    1120
+FVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDL    1200
+QELGKYEQYIKWPWYIWLGFIAGLIAIVMVTIMLCCMTSCCSCLKGCCSCGSCCKFDEDDSEPVLKGVKLHYT
+................N...........................................N............N......      80
+.........................................N..........................N...........     160
+....N....................................................................N......     240
+.............N...........................N......................................     320
+..........N...........N.........................................................     400
+................................................................................     480
+................................................................................     560
+..........................................N............N........................     640
+............................................................................N...     720
+................................................................................     800
+N...............................................................................     880
+................................................................................     960
+................................................................................    1040
+.........................................................N......................    1120
+.............N...........................................................N......    1200
+.........................................................................           1280
+
+(Threshold=0.5)
+----------------------------------------------------------------------
+SeqName      Position  Potential   Jury    N-Glyc
+				 agreement result
+----------------------------------------------------------------------
+seq6          17 NLTT   0.6606     (8/9)   +
+seq6          61 NVTW   0.7820     (9/9)   +++
+seq6          74 NGTK   0.7192     (9/9)   ++
+seq6         122 NATN   0.6781     (8/9)   +
+seq6         149 NKSW   0.6318     (7/9)   +
+seq6         165 NCTF   0.6220     (8/9)   +
+seq6         234 NITR   0.7613     (9/9)   +++
+seq6         254 NSSG   0.6028     (7/9)   +
+seq6         282 NGTI   0.7379     (9/9)   ++
+seq6         331 NITN   0.5970     (7/9)   +
+seq6         343 NATR   0.5672     (8/9)   +
+seq6         603 NTSN   0.5783     (6/9)   +
+seq6         616 NCTE   0.7163     (9/9)   ++
+seq6         657 NNSY   0.4724     (6/9)   -
+seq6         709 NNSI   0.3528     (9/9)   --
+seq6         717 NFTI   0.6426     (9/9)   ++
+seq6         801 NFSQ   0.6146     (8/9)   +
+seq6        1074 NFTT   0.4084     (7/9)   -
+seq6        1098 NGTH   0.5496     (5/9)   +
+seq6        1134 NNTV   0.5800     (6/9)   +
+seq6        1158 NHTS   0.3730     (9/9)   --
+seq6        1173 NASV   0.3997     (8/9)   -
+seq6        1194 NESL   0.6792     (9/9)   ++
+----------------------------------------------------------------------
+
+Output for 'seq7'
+Name:  seq7 	Length:  1273
+MFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFD      80
+NPVLPFNDGVYFASTIKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVY     160
+SSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQT     240
+LLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRV     320
+QPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSF     400
+VIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPC     480
+NGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFL     560
+PFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRVYSTGS     640
+NVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTI     720
+SVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGF     800
+NFSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAG     880
+TITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQDVVNQNAQALN     960
+TLVKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRV    1040
+DFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNT    1120
+FVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDL    1200
+QELGKYEQYIKWPWYIWLGFIAGLIAIVMVTIMLCCMTSCCSCLKGCCSCGSCCKFDEDDSEPVLKGVKLHYT
+................N...........................................N............N......      80
+.........................................N..........................N...........     160
+....N....................................................................N......     240
+.........................................N......................................     320
+..........N...........N.........................................................     400
+................................................................................     480
+................................................................................     560
+..........................................N............N........................     640
+............................................................................N...     720
+................................................................................     800
+N...............................................................................     880
+................................................................................     960
+................................................................................    1040
+.........................................................N......................    1120
+.............N...........................................................N......    1200
+.........................................................................           1280
+
+(Threshold=0.5)
+----------------------------------------------------------------------
+SeqName      Position  Potential   Jury    N-Glyc
+				 agreement result
+----------------------------------------------------------------------
+seq7          17 NLTT   0.6606     (8/9)   +
+seq7          61 NVTW   0.7820     (9/9)   +++
+seq7          74 NGTK   0.7192     (9/9)   ++
+seq7         122 NATN   0.6781     (8/9)   +
+seq7         149 NKSW   0.6318     (7/9)   +
+seq7         165 NCTF   0.6220     (8/9)   +
+seq7         234 NITR   0.7613     (9/9)   +++
+seq7         282 NGTI   0.7378     (9/9)   ++
+seq7         331 NITN   0.5970     (7/9)   +
+seq7         343 NATR   0.5672     (8/9)   +
+seq7         603 NTSN   0.5783     (6/9)   +
+seq7         616 NCTE   0.7163     (9/9)   ++
+seq7         657 NNSY   0.4724     (6/9)   -
+seq7         709 NNSI   0.3528     (9/9)   --
+seq7         717 NFTI   0.6426     (9/9)   ++
+seq7         801 NFSQ   0.6146     (8/9)   +
+seq7        1074 NFTT   0.4084     (7/9)   -
+seq7        1098 NGTH   0.5496     (5/9)   +
+seq7        1134 NNTV   0.5800     (6/9)   +
+seq7        1158 NHTS   0.3730     (9/9)   --
+seq7        1173 NASV   0.3998     (8/9)   -
+seq7        1194 NESL   0.6792     (9/9)   ++
+----------------------------------------------------------------------
+
+Output for 'seq8'
+Name:  seq8 	Length:  1273
+MFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAVHVSGTNGTKRFD      80
+NPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVY     160
+SSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQT     240
+LLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRV     320
+QPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSF     400
+VIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPC     480
+NGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFL     560
+PFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRVYSTGS     640
+NVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTI     720
+SVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGF     800
+NFSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAG     880
+TITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQDVVNQNAQALN     960
+TLVKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRV    1040
+DFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNT    1120
+FVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDL    1200
+QELGKYEQYIKWPWYIWLGFIAGLIAIVMVTIMLCCMTSCCSCLKGCCSCGSCCKFDEDDSEPVLKGVKLHYT
+................N...........................................N............N......      80
+.........................................N..........................N...........     160
+....N....................................................................N......     240
+.........................................N......................................     320
+..........N...........N.........................................................     400
+................................................................................     480
+................................................................................     560
+..........................................N............N........................     640
+............................................................................N...     720
+................................................................................     800
+N...............................................................................     880
+................................................................................     960
+................................................................................    1040
+.........................................................N......................    1120
+.............N...........................................................N......    1200
+.........................................................................           1280
+
+(Threshold=0.5)
+----------------------------------------------------------------------
+SeqName      Position  Potential   Jury    N-Glyc
+				 agreement result
+----------------------------------------------------------------------
+seq8          17 NLTT   0.6607     (8/9)   +
+seq8          61 NVTW   0.7822     (9/9)   +++
+seq8          74 NGTK   0.7219     (9/9)   ++
+seq8         122 NATN   0.6781     (8/9)   +
+seq8         149 NKSW   0.6318     (7/9)   +
+seq8         165 NCTF   0.6220     (8/9)   +
+seq8         234 NITR   0.7613     (9/9)   +++
+seq8         282 NGTI   0.7378     (9/9)   ++
+seq8         331 NITN   0.5970     (7/9)   +
+seq8         343 NATR   0.5671     (8/9)   +
+seq8         603 NTSN   0.5783     (6/9)   +
+seq8         616 NCTE   0.7163     (9/9)   ++
+seq8         657 NNSY   0.4724     (6/9)   -
+seq8         709 NNSI   0.3528     (9/9)   --
+seq8         717 NFTI   0.6426     (9/9)   ++
+seq8         801 NFSQ   0.6146     (8/9)   +
+seq8        1074 NFTT   0.4084     (7/9)   -
+seq8        1098 NGTH   0.5496     (5/9)   +
+seq8        1134 NNTV   0.5800     (6/9)   +
+seq8        1158 NHTS   0.3730     (9/9)   --
+seq8        1173 NASV   0.3996     (8/9)   -
+seq8        1194 NESL   0.6791     (9/9)   ++
+----------------------------------------------------------------------
+
+Output for 'seq9'
+Name:  seq9 	Length:  1273
+MFVFLVLLPLVSSQCVNLTIRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFD      80
+NPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVY     160
+SSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQT     240
+LLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRV     320
+QPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSF     400
+VIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPC     480
+NGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFL     560
+PFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRVYSTGS     640
+NVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTI     720
+SVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGF     800
+NFSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAG     880
+TITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQDVVNQNAQALN     960
+TLVKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRV    1040
+DFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNT    1120
+FVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDL    1200
+QELGKYEQYIKWPWYIWLGFIAGLIAIVMVTIMLCCMTSCCSCLKGCCSCGSCCKFDEDDSEPVLKGVKLHYT
+................N...........................................N............N......      80
+.........................................N..........................N...........     160
+....N....................................................................N......     240
+.........................................N......................................     320
+..........N...........N.........................................................     400
+................................................................................     480
+................................................................................     560
+..........................................N............N........................     640
+............................................................................N...     720
+................................................................................     800
+N...............................................................................     880
+................................................................................     960
+................................................................................    1040
+.........................................................N......................    1120
+.............N...........................................................N......    1200
+.........................................................................           1280
+
+(Threshold=0.5)
+----------------------------------------------------------------------
+SeqName      Position  Potential   Jury    N-Glyc
+				 agreement result
+----------------------------------------------------------------------
+seq9          17 NLTI   0.7144     (9/9)   ++
+seq9          61 NVTW   0.7820     (9/9)   +++
+seq9          74 NGTK   0.7192     (9/9)   ++
+seq9         122 NATN   0.6781     (8/9)   +
+seq9         149 NKSW   0.6318     (7/9)   +
+seq9         165 NCTF   0.6220     (8/9)   +
+seq9         234 NITR   0.7613     (9/9)   +++
+seq9         282 NGTI   0.7378     (9/9)   ++
+seq9         331 NITN   0.5970     (7/9)   +
+seq9         343 NATR   0.5671     (8/9)   +
+seq9         603 NTSN   0.5783     (6/9)   +
+seq9         616 NCTE   0.7163     (9/9)   ++
+seq9         657 NNSY   0.4724     (6/9)   -
+seq9         709 NNSI   0.3528     (9/9)   --
+seq9         717 NFTI   0.6426     (9/9)   ++
+seq9         801 NFSQ   0.6146     (8/9)   +
+seq9        1074 NFTT   0.4084     (7/9)   -
+seq9        1098 NGTH   0.5494     (5/9)   +
+seq9        1134 NNTV   0.5800     (6/9)   +
+seq9        1158 NHTS   0.3730     (9/9)   --
+seq9        1173 NASV   0.3997     (8/9)   -
+seq9        1194 NESL   0.6790     (9/9)   ++
+----------------------------------------------------------------------
+
+Output for 'seq10'
+Name:  seq10 	Length:  1273
+MFVFLVLLPLVSSQCVNLTRRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFD      80
+NPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVY     160
+SSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQT     240
+LLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRV     320
+QPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSF     400
+VIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPC     480
+NGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFL     560
+PFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRVYSTGS     640
+NVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTI     720
+SVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGF     800
+NFSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAG     880
+TITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQDVVNQNAQALN     960
+TLVKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRV    1040
+DFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNT    1120
+FVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDL    1200
+QELGKYEQYIKWPWYIWLGFIAGLIAIVMVTIMLCCMTSCCSCLKGCCSCGSCCKFDEDDSEPVLKGVKLHYT
+................N...........................................N............N......      80
+.........................................N..........................N...........     160
+....N....................................................................N......     240
+.........................................N......................................     320
+..........N...........N.........................................................     400
+................................................................................     480
+................................................................................     560
+..........................................N............N........................     640
+............................................................................N...     720
+................................................................................     800
+N...............................................................................     880
+................................................................................     960
+................................................................................    1040
+.........................................................N......................    1120
+.............N...........................................................N......    1200
+.........................................................................           1280
+
+(Threshold=0.5)
+----------------------------------------------------------------------
+SeqName      Position  Potential   Jury    N-Glyc
+				 agreement result
+----------------------------------------------------------------------
+seq10         17 NLTR   0.7113     (8/9)   +
+seq10         61 NVTW   0.7820     (9/9)   +++
+seq10         74 NGTK   0.7192     (9/9)   ++
+seq10        122 NATN   0.6780     (8/9)   +
+seq10        149 NKSW   0.6318     (7/9)   +
+seq10        165 NCTF   0.6220     (8/9)   +
+seq10        234 NITR   0.7613     (9/9)   +++
+seq10        282 NGTI   0.7378     (9/9)   ++
+seq10        331 NITN   0.5970     (7/9)   +
+seq10        343 NATR   0.5672     (8/9)   +
+seq10        603 NTSN   0.5783     (6/9)   +
+seq10        616 NCTE   0.7163     (9/9)   ++
+seq10        657 NNSY   0.4724     (6/9)   -
+seq10        709 NNSI   0.3528     (9/9)   --
+seq10        717 NFTI   0.6426     (9/9)   ++
+seq10        801 NFSQ   0.6146     (8/9)   +
+seq10       1074 NFTT   0.4084     (7/9)   -
+seq10       1098 NGTH   0.5494     (5/9)   +
+seq10       1134 NNTV   0.5800     (6/9)   +
+seq10       1158 NHTS   0.3730     (9/9)   --
+seq10       1173 NASV   0.3996     (8/9)   -
+seq10       1194 NESL   0.6790     (9/9)   ++
+----------------------------------------------------------------------
+
+Output for 'seq11'
+Name:  seq11 	Length:  1273
+MFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFD      80
+NPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVY     160
+SSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQT     240
+LLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRV     320
+QPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSF     400
+VIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPC     480
+NGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFL     560
+PFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRVYSTGS     640
+NVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTI     720
+SVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGF     800
+NFSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAG     880
+TITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQDVVNQNAQALN     960
+TLVKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRV    1040
+DFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNT    1120
+FVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDL    1200
+QELGKYEQYIKWPWYIWLGFIAGLIAIVMVTIMLCCMTSCCSCLKGCCSCGSCCKFDEDDSEPVLKGVKLHYT
+................N...........................................N............N......      80
+.........................................N..........................N...........     160
+....N....................................................................N......     240
+.........................................N......................................     320
+..........N...........N.........................................................     400
+................................................................................     480
+................................................................................     560
+..........................................N............N........................     640
+............................................................................N...     720
+................................................................................     800
+N...............................................................................     880
+................................................................................     960
+................................................................................    1040
+.........................................................N......................    1120
+.............N...........................................................N......    1200
+.........................................................................           1280
+
+(Threshold=0.5)
+----------------------------------------------------------------------
+SeqName      Position  Potential   Jury    N-Glyc
+				 agreement result
+----------------------------------------------------------------------
+seq11         17 NLTT   0.6606     (8/9)   +
+seq11         61 NVTW   0.7820     (9/9)   +++
+seq11         74 NGTK   0.7192     (9/9)   ++
+seq11        122 NATN   0.6781     (8/9)   +
+seq11        149 NKSW   0.6318     (7/9)   +
+seq11        165 NCTF   0.6220     (8/9)   +
+seq11        234 NITR   0.7613     (9/9)   +++
+seq11        282 NGTI   0.7378     (9/9)   ++
+seq11        331 NITN   0.5970     (7/9)   +
+seq11        343 NATR   0.5671     (8/9)   +
+seq11        603 NTSN   0.5783     (6/9)   +
+seq11        616 NCTE   0.7163     (9/9)   ++
+seq11        657 NNSY   0.4724     (6/9)   -
+seq11        709 NNSI   0.3528     (9/9)   --
+seq11        717 NFTI   0.6426     (9/9)   ++
+seq11        801 NFSQ   0.6146     (8/9)   +
+seq11       1074 NFTT   0.4084     (7/9)   -
+seq11       1098 NGTH   0.5496     (5/9)   +
+seq11       1134 NNTV   0.5800     (6/9)   +
+seq11       1158 NHTS   0.3730     (9/9)   --
+seq11       1173 NASV   0.3998     (8/9)   -
+seq11       1194 NESL   0.6791     (9/9)   ++
+----------------------------------------------------------------------
+
+Output for 'seq12'
+Name:  seq12 	Length:  1273
+MFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQRLFLPFFSNVTWFHAIHVSGTNGTKRFD      80
+NPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVY     160
+SSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQT     240
+LLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRV     320
+QPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSF     400
+VIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPC     480
+NGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFL     560
+PFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRVYSTGS     640
+NVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTI     720
+SVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGF     800
+NFSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAG     880
+TITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQDVVNQNAQALN     960
+TLVKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRV    1040
+DFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNT    1120
+FVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDL    1200
+QELGKYEQYIKWPWYIWLGFIAGLIAIVMVTIMLCCMTSCCSCLKGCCSCGSCCKFDEDDSEPVLKGVKLHYT
+................N...........................................N............N......      80
+.........................................N..........................N...........     160
+....N....................................................................N......     240
+.........................................N......................................     320
+..........N...........N.........................................................     400
+................................................................................     480
+................................................................................     560
+..........................................N............N........................     640
+............................................................................N...     720
+................................................................................     800
+N...............................................................................     880
+................................................................................     960
+................................................................................    1040
+.........................................................N......................    1120
+.............N...........................................................N......    1200
+.........................................................................           1280
+
+(Threshold=0.5)
+----------------------------------------------------------------------
+SeqName      Position  Potential   Jury    N-Glyc
+				 agreement result
+----------------------------------------------------------------------
+seq12         17 NLTT   0.6606     (8/9)   +
+seq12         61 NVTW   0.7817     (9/9)   +++
+seq12         74 NGTK   0.7192     (9/9)   ++
+seq12        122 NATN   0.6782     (8/9)   +
+seq12        149 NKSW   0.6318     (7/9)   +
+seq12        165 NCTF   0.6220     (8/9)   +
+seq12        234 NITR   0.7613     (9/9)   +++
+seq12        282 NGTI   0.7378     (9/9)   ++
+seq12        331 NITN   0.5970     (7/9)   +
+seq12        343 NATR   0.5672     (8/9)   +
+seq12        603 NTSN   0.5783     (6/9)   +
+seq12        616 NCTE   0.7163     (9/9)   ++
+seq12        657 NNSY   0.4724     (6/9)   -
+seq12        709 NNSI   0.3528     (9/9)   --
+seq12        717 NFTI   0.6426     (9/9)   ++
+seq12        801 NFSQ   0.6146     (8/9)   +
+seq12       1074 NFTT   0.4084     (7/9)   -
+seq12       1098 NGTH   0.5494     (5/9)   +
+seq12       1134 NNTV   0.5800     (6/9)   +
+seq12       1158 NHTS   0.3730     (9/9)   --
+seq12       1173 NASV   0.3998     (8/9)   -
+seq12       1194 NESL   0.6790     (9/9)   ++
+----------------------------------------------------------------------
+
+Output for 'seq13'
+Name:  seq13 	Length:  1273
+MFVFLFLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFD      80
+NPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVY     160
+SSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQT     240
+LLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRV     320
+QPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSF     400
+VIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPC     480
+NGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFL     560
+PFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRVYSTGS     640
+NVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTI     720
+SVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGF     800
+NFSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAG     880
+TITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQDVVNQNAQALN     960
+TLVKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRV    1040
+DFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNT    1120
+FVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDL    1200
+QELGKYEQYIKWPWYIWLGFIAGLIAIVMVTIMLCCMTSCCSCLKGCCSCGSCCKFDEDDSEPVLKGVKLHYT
+................N...........................................N............N......      80
+.........................................N..........................N...........     160
+....N....................................................................N......     240
+.........................................N......................................     320
+..........N...........N.........................................................     400
+................................................................................     480
+................................................................................     560
+..........................................N............N........................     640
+............................................................................N...     720
+................................................................................     800
+N...............................................................................     880
+................................................................................     960
+................................................................................    1040
+.........................................................N......................    1120
+.............N...........................................................N......    1200
+.........................................................................           1280
+
+(Threshold=0.5)
+----------------------------------------------------------------------
+SeqName      Position  Potential   Jury    N-Glyc
+				 agreement result
+----------------------------------------------------------------------
+seq13         17 NLTT   0.6606     (8/9)   +
+seq13         61 NVTW   0.7820     (9/9)   +++
+seq13         74 NGTK   0.7192     (9/9)   ++
+seq13        122 NATN   0.6781     (8/9)   +
+seq13        149 NKSW   0.6318     (7/9)   +
+seq13        165 NCTF   0.6220     (8/9)   +
+seq13        234 NITR   0.7613     (9/9)   +++
+seq13        282 NGTI   0.7378     (9/9)   ++
+seq13        331 NITN   0.5970     (7/9)   +
+seq13        343 NATR   0.5671     (8/9)   +
+seq13        603 NTSN   0.5783     (6/9)   +
+seq13        616 NCTE   0.7163     (9/9)   ++
+seq13        657 NNSY   0.4724     (6/9)   -
+seq13        709 NNSI   0.3528     (9/9)   --
+seq13        717 NFTI   0.6426     (9/9)   ++
+seq13        801 NFSQ   0.6146     (8/9)   +
+seq13       1074 NFTT   0.4084     (7/9)   -
+seq13       1098 NGTH   0.5496     (5/9)   +
+seq13       1134 NNTV   0.5800     (6/9)   +
+seq13       1158 NHTS   0.3730     (9/9)   --
+seq13       1173 NASV   0.3998     (8/9)   -
+seq13       1194 NESL   0.6792     (9/9)   ++
+----------------------------------------------------------------------
+
+Output for 'seq14'
+Name:  seq14 	Length:  1273
+MFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFD      80
+NPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVY     160
+SSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQT     240
+LLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRV     320
+QPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSF     400
+VIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPC     480
+NGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFL     560
+PFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRVYSTGS     640
+NVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTI     720
+SVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGF     800
+NFSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAG     880
+TITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQDVVNQNAQALN     960
+TLVKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRV    1040
+DFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNT    1120
+FVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDL    1200
+QELGKYEQYIKWPWYIWLGFIAGLIAIVMVTIMLCCMTSCCSCLKGCCSCGSCCKFDEDDSEPVLKGVKLHYT
+................N...........................................N............N......      80
+.........................................N..........................N...........     160
+....N....................................................................N......     240
+.........................................N......................................     320
+..........N...........N.........................................................     400
+................................................................................     480
+................................................................................     560
+..........................................N............N........................     640
+............................................................................N...     720
+................................................................................     800
+N...............................................................................     880
+................................................................................     960
+................................................................................    1040
+.........................................................N......................    1120
+.............N...........................................................N......    1200
+.........................................................................           1280
+
+(Threshold=0.5)
+----------------------------------------------------------------------
+SeqName      Position  Potential   Jury    N-Glyc
+				 agreement result
+----------------------------------------------------------------------
+seq14         17 NLTT   0.6606     (8/9)   +
+seq14         61 NVTW   0.7820     (9/9)   +++
+seq14         74 NGTK   0.7192     (9/9)   ++
+seq14        122 NATN   0.6781     (8/9)   +
+seq14        149 NKSW   0.6318     (7/9)   +
+seq14        165 NCTF   0.6220     (8/9)   +
+seq14        234 NITR   0.7613     (9/9)   +++
+seq14        282 NGTI   0.7378     (9/9)   ++
+seq14        331 NITN   0.5970     (7/9)   +
+seq14        343 NATR   0.5671     (8/9)   +
+seq14        603 NTSN   0.5783     (6/9)   +
+seq14        616 NCTE   0.7163     (9/9)   ++
+seq14        657 NNSY   0.4724     (6/9)   -
+seq14        709 NNSI   0.3528     (9/9)   --
+seq14        717 NFTI   0.6426     (9/9)   ++
+seq14        801 NFSQ   0.6146     (8/9)   +
+seq14       1074 NFTT   0.4084     (7/9)   -
+seq14       1098 NGTH   0.5496     (5/9)   +
+seq14       1134 NNTV   0.5800     (6/9)   +
+seq14       1158 NHTS   0.3730     (9/9)   --
+seq14       1173 NASV   0.3998     (8/9)   -
+seq14       1194 NESL   0.6791     (9/9)   ++
+----------------------------------------------------------------------
