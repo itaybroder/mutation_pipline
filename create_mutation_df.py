@@ -8,14 +8,10 @@ from predictors.netchop import create_dataframe_from_netchop, feed_to_Netchop
 from predictors.glyc import parseNetglyc
 import importlib
 
-importlib.reload(tools)
-
 # prapring the main varients protiens dict
 mutation_dict = json_txt_to_dict("data/vocs.txt")
 protien_varients_dict = create_varients_dict(mutation_dict)
 protien_varients_dict = prapere_file_to_glyc(protien_varients_dict)
-
-
 # -----------------------------------------------------------------------------------------------------------------------
 
 # the main pipeline
@@ -46,8 +42,12 @@ def main_pipline(protien_varients_dict):
     base_df.to_csv("data/output_files/final_base_df.csv")
 # -----------------------------------------------------------------------------------------------------------------------
 
+
 # main_pipline(protien_varients_dict)
 
-base_df = pd.read_csv("data/output_files/final_base_df.csv")
-base_df = create_dataframe_from_netchop(base_df, protien_varients_dict)
-base_df.to_csv("data/output_files/final_base_df.csv")
+# base_df = pd.read_csv("data/output_files/final_base_df.csv")
+
+# base_df.loc[base_df.varient == "original", "end_pos"] -=1
+# base_df.loc[base_df.varient == "original", "start_pos"] +=1
+
+# base_df.to_csv("data/output_files/final_base_df.csv")
