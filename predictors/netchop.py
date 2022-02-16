@@ -21,6 +21,8 @@ def seq_map(mutation_dict, varient_name):
 def create_dataframe_from_netchop(base_df, protien_varients_dict):
     output_file = "data/output_files/netchop_output.txt"
     with open(output_file, "r+") as file:
+        omicronflag=False
+        omicron2flag = False
         for line in file:
             line = line.rstrip("\n")
             if line.startswith("#"):
@@ -32,14 +34,23 @@ def create_dataframe_from_netchop(base_df, protien_varients_dict):
             elif line.startswith("p"):
                 continue
             elif line.startswith(" pos  AA  C      score      Ident"):
+                if(omicronflag):
+                    omicron2flag = True
+                if(omicron2flag):
+                    omicron2flag = False
                 continue
             elif line == "":
                 continue
             else:
+                
                 line = line.split()
                 end_pos = int(line[0])
                 chopped = (line[2] == 'S')
                 curr_seq = seq_map(protien_varients_dict, line[4])
+                if(curr_seq == "Omicron BA.1"):
+                    omicronflag=True
+                if(omicron2flag == True):
+                    curr_seq = "Omicron BA.2"
                 base_df.loc[(base_df["end_pos"] == end_pos) & (base_df["varient"] == curr_seq), "Chopped"] = chopped
 
 
