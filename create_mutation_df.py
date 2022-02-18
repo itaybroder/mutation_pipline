@@ -30,23 +30,21 @@ def main_pipline(protien_varients_dict):
     # create_protien_fasta_file(protien_varients_dict)
     
     # run the predictors
-    feed_to_NetMHCPan()
-    feed_to_Netchop()
+    # feed_to_NetMHCPan()
+    # feed_to_Netchop()
 
-    # base_df = create_dataframe_from_netchop(base_df, protien_varients_dict)
-    # netmhcpan_df = create_dataframe_from_netmhcpan()
-    # base_df = merge_netmhcpan(netmhcpan_df, base_df)
-    # glyc_df = parseNetglyc("data/output_files/glyc_output.txt")
-    # base_df = merge_base_df_with_glyc(base_df, glyc_df)
-    # base_df.to_csv("data/output_files/final_base_df.csv")
+    base_df = create_dataframe_from_netchop(base_df, protien_varients_dict)
+    netmhcpan_df = create_dataframe_from_netmhcpan()
+    base_df = merge_netmhcpan(netmhcpan_df, base_df)
+    glyc_df = parseNetglyc("data/output_files/glyc_output.txt")
+    base_df = merge_base_df_with_glyc(base_df, glyc_df)
+    base_df.to_csv("data/output_files/final_base_df.csv")
 # -----------------------------------------------------------------------------------------------------------------------
 
 
-main_pipline(protien_varients_dict)
+#main_pipline(protien_varients_dict)
 
-# base_df = pd.read_csv("data/output_files/final_base_df.csv")
-
-# base_df.loc[base_df.varient == "original", "end_pos"] -=1
-# base_df.loc[base_df.varient == "original", "start_pos"] +=1
-
-# base_df.to_csv("data/output_files/final_base_df.csv")
+base_df = pd.read_csv("data/output_files/final_base_df.csv")
+base_df.loc[base_df.varient == "original", "end_pos"] -=1
+base_df.loc[base_df.varient == "original", "start_pos"] +=1
+base_df.to_csv("data/output_files/final_base_df.csv")
