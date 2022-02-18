@@ -76,6 +76,9 @@ def create_varients_dict(varients_dict):
     for varient in varients_dict:
         pos_list = list(range(1, len(PROTEIN) + 1))
         new_protien, pos_list = create_varients_protien(varient, varients_dict[varient], PROTEIN, pos_list)
+        if(varient == "Omicron BA.1"):
+            new_protien = new_protien[:214] + "EPE" + new_protien[214:]
+            pos_list = list(range(1, len(new_protien) + 1))
         new_dict[varient] = {'protein': new_protien, 'peptides': split_for_all_peptides(new_protien, pos_list),
                              'pos_list': pos_list}
 

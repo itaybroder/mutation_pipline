@@ -25,25 +25,25 @@ def main_pipline(protien_varients_dict):
 
     base_df = pd.DataFrame(rows, columns=cols)
     print(base_df.head())
-    # creating the input files for the predictors
+    # # creating the input files for the predictors
     # create_peptides_input_file(base_df)
-    create_protien_fasta_file(protien_varients_dict)
-
+    # create_protien_fasta_file(protien_varients_dict)
+    
     # run the predictors
-    # feed_to_NetMHCPan()
-    # feed_to_Netchop()
-    # feed_to_Netchop()
+    feed_to_NetMHCPan()
+    feed_to_Netchop()
+    feed_to_Netchop()
 
-    base_df = create_dataframe_from_netchop(base_df, protien_varients_dict)
-    netmhcpan_df = create_dataframe_from_netmhcpan()
-    base_df = merge_netmhcpan(netmhcpan_df, base_df)
-    glyc_df = parseNetglyc("data/output_files/glyc_output.txt")
-    base_df = merge_base_df_with_glyc(base_df, glyc_df)
-    base_df.to_csv("data/output_files/final_base_df.csv")
+    # base_df = create_dataframe_from_netchop(base_df, protien_varients_dict)
+    # netmhcpan_df = create_dataframe_from_netmhcpan()
+    # base_df = merge_netmhcpan(netmhcpan_df, base_df)
+    # glyc_df = parseNetglyc("data/output_files/glyc_output.txt")
+    # base_df = merge_base_df_with_glyc(base_df, glyc_df)
+    # base_df.to_csv("data/output_files/final_base_df.csv")
 # -----------------------------------------------------------------------------------------------------------------------
 
 
-# main_pipline(protien_varients_dict)
+main_pipline(protien_varients_dict)
 
 # base_df = pd.read_csv("data/output_files/final_base_df.csv")
 
