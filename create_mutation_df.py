@@ -32,7 +32,6 @@ def main_pipline(protien_varients_dict):
     # run the predictors
     feed_to_NetMHCPan()
     feed_to_Netchop()
-    feed_to_Netchop()
 
     # base_df = create_dataframe_from_netchop(base_df, protien_varients_dict)
     # netmhcpan_df = create_dataframe_from_netmhcpan()
