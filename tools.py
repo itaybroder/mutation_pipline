@@ -1,5 +1,5 @@
 import json
-from predictors.config import INPUT_DIR
+from predictors.configy import INPUT_DIR
 import numpy as np
 import tqdm
 
