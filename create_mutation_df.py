@@ -24,14 +24,15 @@ def main_pipline(protien_varients_dict):
             rows.append([pep[0], pep[1], pep[2], varient, False])
 
     base_df = pd.DataFrame(rows, columns=cols)
+    base_df.to_csv("base_df.csv")
     print(base_df.head())
-    # # creating the input files for the predictors
-    # create_peptides_input_file(base_df)
-    # create_protien_fasta_file(protien_varients_dict)
+    # creating the input files for the predictors
+    create_peptides_input_file(base_df)
+    create_protien_fasta_file(protien_varients_dict)
     
     # run the predictors
-    # feed_to_NetMHCPan()
-    # feed_to_Netchop()
+    feed_to_NetMHCPan()
+    feed_to_Netchop()
 
     base_df = create_dataframe_from_netchop(base_df, protien_varients_dict)
     netmhcpan_df = create_dataframe_from_netmhcpan()
@@ -42,9 +43,9 @@ def main_pipline(protien_varients_dict):
 # -----------------------------------------------------------------------------------------------------------------------
 
 
-#main_pipline(protien_varients_dict)
+main_pipline(protien_varients_dict)
 
-base_df = pd.read_csv("data/output_files/final_base_df.csv")
-base_df.loc[base_df.varient == "original", "end_pos"] -=1
-base_df.loc[base_df.varient == "original", "start_pos"] +=1
-base_df.to_csv("data/output_files/final_base_df.csv")
+# base_df = pd.read_csv("data/output_files/final_base_df.csv")
+# base_df.loc[base_df.varient == "original", "end_pos"] -=1
+# # base_df.loc[base_df.varient == "original", "start_pos"] +=1
+# base_df.to_csv("data/output_files/final_base_df.csv")

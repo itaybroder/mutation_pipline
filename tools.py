@@ -33,7 +33,7 @@ def split_by_k_r(RNA, k):
     peptides = []
     pos_counter = 1
     for s in RNA[:len(RNA) - k]:
-        peptides.append([RNA[pos_counter - 1: pos_counter + k - 1], pos_counter - 1, pos_counter + k])
+        peptides.append([RNA[pos_counter - 1: pos_counter + k - 1], pos_counter , pos_counter + k-1])
         pos_counter += 1
     return peptides
 
@@ -57,17 +57,21 @@ def json_txt_to_dict(file_path):
 
 
 def create_varients_protien(varient_name, mutation_list, protien, pos_list):
+    index_to_letter = {i:k for i, k in enumerate(protien)}
     for mut in mutation_list:
         mut_pos = int(mut[1:-1])
         new_aa = mut[-1]
         if (new_aa == "-"):
-            new_aa = ""
+            index_to_letter.pop(mut_pos-1)
             pos_list.pop(mut_pos - 1)
-        new_protien = protien
-        new_protien = list(new_protien)
-        new_protien[mut_pos] = new_aa
-        new_protien = "".join(new_protien)
-        return [new_protien, pos_list]
+        else:
+            index_to_letter[mut_pos-1] = new_aa
+
+   
+    touple_list = index_to_letter.items()
+    touple_list = sorted(touple_list, key=lambda x: x[0])
+    protien = "".join([i[1] for i in touple_list])
+    return [protien, pos_list]
 
 
 def create_varients_dict(varients_dict):

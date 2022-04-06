@@ -36,7 +36,8 @@ def create_dataframe_from_netchop(base_df, protien_varients_dict):
             elif line.startswith(" pos  AA  C      score      Ident"):
                 if(omicronflag):
                     omicron2flag = True
-                if(omicron2flag):
+                    omicronflag = False
+                elif(omicron2flag):
                     omicron2flag = False
                 continue
             elif line == "":
@@ -46,11 +47,13 @@ def create_dataframe_from_netchop(base_df, protien_varients_dict):
                 line = line.split()
                 end_pos = int(line[0])
                 chopped = (line[2] == 'S')
-                curr_seq = seq_map(protien_varients_dict, line[4])
-                if(curr_seq == "Omicron BA.1"):
-                    omicronflag=True
                 if(omicron2flag == True):
                     curr_seq = "Omicron BA.2"
+                else:
+                    curr_seq = seq_map(protien_varients_dict, line[4])
+                if(curr_seq == "Omicron BA.1"):
+                    omicronflag=True
+               
                 base_df.loc[(base_df["end_pos"] == end_pos) & (base_df["varient"] == curr_seq), "Chopped"] = chopped
 
 
